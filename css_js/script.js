@@ -19,17 +19,14 @@ let quotes = [
 '\"Cuando mires al cielo, por la noche, como yo habitaré en una de ellas, como yo reiré en una de ellas, será para ti como si rieran todas las estrellas. ¡Tú y solo tú tendrás estrellas que saben reír!\"'
 ];
 
-let lastNumber = 0;
 function displayQuotes() {
-    let Q = quotes.length;
-    let randomNum=Math.round(Math.random()*(Q-1));
-    if (randomNum != lastNumber){
+    let randomNum=Math.round(Math.random()*(quotes.length - 1));
+    if (randomNum >= 0){
         document.querySelector('#textQuotes').innerHTML = quotes[randomNum];
     }
     else {
         displayQuotes();
-    }
-    
+    }   
 }
 
 
