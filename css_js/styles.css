@@ -62,7 +62,7 @@ nav ol li a{
     font-family: 'Crimson Pro', serif;
     font-size: 24px;
 }
-#button_quotes {
+.button {
     width: 230px;
     height: 40px;
     background-color: #F94A72;
@@ -73,6 +73,10 @@ nav ol li a{
     margin: 0 0 30px 70px;
     cursor: pointer;
     outline: none;
+}
+#button_peso{
+    margin: 5px;
+    width: 170px;
 }
 .story{
     background-color: #F94A72;
@@ -88,7 +92,36 @@ nav ol li a{
     padding: 70px 0 50px 0;
 }
 .gameContainer{
+    display: grid;
+    height: auto;
+}
+.containerPlanetas{
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: stretch;
+}
+.dataUser{
     display: flex;
-    height: 300px;
-    border: solid 1px red;
+    justify-content: center; 
+}
+.imgPlaneta{
+    width: 150px;
+    height: 150px;
+}
+.titlePlaneta{
+    text-align: center;
+    font-family: 'Crimson Pro', serif;
+}
+.textsPlanetas{
+    text-align: center;
+}
+.container input {
+    text-align: center;
+    width: 150px;
+    margin: 5px 15px;
+    border-radius: 4px;
+}
+.planeta p, h3{
+    margin:5px;
 }

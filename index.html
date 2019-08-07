@@ -31,7 +31,7 @@
         <img src="images/hero.jpg" alt="Hero">
         <div class="container quotesContainer">
             <p id="textQuotes">Descubre qué te dice el principito hoy</p>
-            <button id="button_quotes"> Your Quote </button>
+            <button class= "button" id="button_quotes"> Your Quote </button>
         </div>
     </section>
     <section class="story" id="about">
@@ -44,8 +44,47 @@
             </div>
         </section>
     <section class="gameContainer" id="games">
-        <div class="container">
-
+        <div class="container textsPlanetas">
+            <h2 class="titlePlanetaGame">¿Cuánto pesas en los planetas del principito?</h2>
+            <p>El principito visita varios asterioides y planetas durante su travesía, descubre cuál sería tu peso si visitaras cada uno de ellos.</p>
+            <div class= "dataUser">
+                    <p>¿Cuál es tu peso en la tierra?</p>
+                    <input id="pesoUsuario" type="number" placeholder="coloca tu peso aquí">
+                    <button class="button" id="button_peso"> ¡Vámos! </button>
+            </div>
+            
+            <div class="containerPlanetas">
+                <div class="planeta">
+                  <img src="images/planet-1.png" alt="Planeta del Rey" class="imgPlaneta">
+                  <p id="rey"></p>
+                  <h3 class="titlePlaneta">Planeta del Rey</h3>  
+                </div> 
+                <div class="planeta">
+                    <img src="images/planet-2.png" alt="Planeta del vanidoso" class="imgPlaneta">
+                    <p id="vanidoso"></p>
+                    <h3 class="titlePlaneta">Planeta del vanidoso</h3> 
+                </div>
+                <div class="planeta">
+                    <img src="images/planet-3.png" alt="Planeta del bebedor" class="imgPlaneta">
+                    <p id="bebedor"></p>
+                    <h3 class="titlePlaneta">Planeta del bebedor</h3>  
+                </div>
+                <div class="planeta">
+                    <img src="images/planet-4.png" alt="Planeta del hombre de negocios" class="imgPlaneta">
+                    <p id="negocios"></p>
+                    <h3 class="titlePlaneta">Planeta del hombre de negocios</h3>  
+                </div>
+                <div class="planeta">
+                    <img src="images/planet-5.png" alt="Planeta del farolero" class="imgPlaneta">
+                    <p id="farolero"></p>
+                    <h3 class="titlePlaneta">Planeta del farolero</h3>
+                </div>
+                <div class="planeta">
+                    <img src="images/planet-6.png" alt="Planeta del geográfo" class="imgPlaneta">
+                    <p id="geografo"></p>
+                    <h3 class="titlePlaneta">Planeta del geógrafo</h3>
+                </div>            
+            </div>
         </div>
     </section>
     <footer>

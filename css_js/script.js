@@ -29,4 +29,55 @@ function displayQuotes() {
     }   
 }
 
+// Función juego planetas
+
+var botonPeso = document.querySelector("#button_peso");
+botonPeso.addEventListener("click", pesoPlanetas);
+
+var inputText = document.querySelector('#pesoUsuario');
+inputText.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("button_peso").click();
+    }
+});
+
+// gravedades
+const g_rey = 3.7;
+const g_vanidoso = 8.87;
+const g_bebedor = 2.62;
+const g_negocios = 3.7;
+const g_farolero = 24.8;
+const g_geografo = 11.15;
+const g_tierra = 9.8;
+
+function pesoPlanetas(){
+    var peso = parseFloat(inputText.value);
+
+    const r = peso * g_rey / g_tierra;
+    let rey = r.toFixed(2);
+    document.querySelector('#rey').innerHTML = rey + " kg.";
+
+    const v = peso * g_vanidoso / g_tierra;
+    let vanidoso = v.toFixed(2);
+    document.querySelector('#vanidoso').innerHTML = vanidoso + " kg.";
+    
+    const b = peso * g_bebedor / g_tierra;
+    let bebedor = b.toFixed(2);
+    document.querySelector('#bebedor').innerHTML = bebedor + " kg.";
+
+    const n = peso * g_negocios / g_tierra;
+    let negocios = n.toFixed(2);
+    document.querySelector('#negocios').innerHTML = negocios + " kg.";
+
+    const f = peso * g_farolero/ g_tierra;
+    let farolero = f.toFixed(2);
+    document.querySelector('#farolero').innerHTML = farolero + " kg.";
+
+    const g = peso * g_geografo/ g_tierra;
+    let geografo = g.toFixed(2);
+    document.querySelector('#geografo').innerHTML = geografo + " kg.";
+}
+
+
 
