@@ -1,3 +1,6 @@
 # El principito
+* Javascript
+* CSS
+* HTML
 
-[Le petit prince](https://le-petit-prince-duhr29qsf.now.sh/)
+[Enlace al proyecto](https://le-petit-prince-duhr29qsf.now.sh/)
