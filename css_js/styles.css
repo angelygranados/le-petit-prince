@@ -125,3 +125,28 @@ nav ol li a{
 .planeta p, h3{
     margin:5px;
 }
+#pesoUsuario{
+    outline: none;
+    border: 1px solid grey;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(to top, rgba(249, 74, 114, 0.9) 0%, rgba(249, 74, 114, 0) 100%);
+}
+.footer a{
+    margin:20px; 
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer a img{
+    width: 50px;
+    height: 50px;
+}
