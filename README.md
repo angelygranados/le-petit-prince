@@ -3,4 +3,4 @@
 * CSS
 * HTML
 
-[Enlace al proyecto](https://elprincipito.now.sh/)
+<a href="https://elprincipito.now.sh/" target="_blank">Enlace al proyecto</a>
