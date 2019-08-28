@@ -245,7 +245,7 @@ body{
 }
 @media screen and (max-width: 580px){
     .header{
-        flex-direction: row;
+        flex-direction: column;
     }
     .header__logo img{
         width: 150px;
@@ -312,7 +312,7 @@ body{
         flex-direction: column;
     }
     .header__menu ol{
-        font-size: 10px;
+        font-size: 12px;
     }
     
     #textQuotes {
