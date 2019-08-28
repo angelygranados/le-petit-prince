@@ -309,21 +309,18 @@ body{
 }
 @media screen and (max-width:320px){
     .header__menu ol{
-        font-size: 16px;
+        font-size: 10px;
     }
     .header__logo{
         width: 100px;
     }
-    .footer{
-        font-size: 12px;
-    }
     .footer a{
         margin: 10px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .footer a img{
         vertical-align: center;
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
     }
 }
